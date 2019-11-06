@@ -16,7 +16,7 @@ class Anagram
       temp_array = array_word.split("")
       unsorted_temp_array = temp_array
       sorted_temp_array = temp_array.sort
-      if sorted_temp_array == word_letters
+      if sorted_temp_array.sort == word_letters.sort
         new_array << unsorted_temp_array.join("")
       end
     end
